@@ -1,0 +1,81 @@
+id,equipment_id,maintenance_type,maintenance_status,scheduled_at,started_at,completed_at,canceled_at,requested_by_person_id,performed_by,description,notes,created_at,updated_at
+1,1,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 08:01:00,2026-11-02 11:01:00,__NULL__,1,Clinical Engineering,Corrective service for Infusion Pump,__NULL__,2026-11-02 05:01:00,2026-11-02 11:01:00
+2,2,INSPECTION,COMPLETED,__NULL__,2026-11-02 11:02:00,2026-11-02 14:02:00,__NULL__,1,Clinical Engineering,Inspection service for Wheelchair,__NULL__,2026-11-02 08:02:00,2026-11-02 14:02:00
+3,3,CALIBRATION,COMPLETED,__NULL__,2026-11-02 02:03:00,2026-11-02 05:03:00,__NULL__,1,Clinical Engineering,Calibration service for Stretcher,__NULL__,2026-11-01 23:03:00,2026-11-02 05:03:00
+4,4,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 05:04:00,2026-11-02 08:04:00,__NULL__,1,Clinical Engineering,Preventive service for Patient Monitor,__NULL__,2026-11-02 02:04:00,2026-11-02 08:04:00
+5,5,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 02:05:00,2026-11-02 05:05:00,__NULL__,1,Clinical Engineering,Corrective service for Anesthesia Machine,__NULL__,2026-11-01 23:05:00,2026-11-02 05:05:00
+6,6,INSPECTION,COMPLETED,__NULL__,2026-11-02 08:06:00,2026-11-02 11:06:00,__NULL__,1,Clinical Engineering,Inspection service for Ultrasound,__NULL__,2026-11-02 05:06:00,2026-11-02 11:06:00
+7,7,CALIBRATION,COMPLETED,__NULL__,2026-11-02 08:07:00,2026-11-02 11:07:00,__NULL__,1,Clinical Engineering,Calibration service for C-Arm,__NULL__,2026-11-02 05:07:00,2026-11-02 11:07:00
+8,8,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 05:08:00,2026-11-02 08:08:00,__NULL__,1,Clinical Engineering,Preventive service for Case Cart,__NULL__,2026-11-02 02:08:00,2026-11-02 08:08:00
+9,9,CORRECTIVE,COMPLETED,__NULL__,2026-11-01 20:09:00,2026-11-01 23:09:00,__NULL__,1,Clinical Engineering,Corrective service for Autoclave,__NULL__,2026-11-01 17:09:00,2026-11-01 23:09:00
+10,10,INSPECTION,COMPLETED,__NULL__,2026-11-02 02:10:00,2026-11-02 05:10:00,__NULL__,1,Clinical Engineering,Inspection service for Washer Disinfector,__NULL__,2026-11-01 23:10:00,2026-11-02 05:10:00
+11,11,CALIBRATION,COMPLETED,__NULL__,2026-11-02 08:11:00,2026-11-02 11:11:00,__NULL__,1,Clinical Engineering,Calibration service for Infusion Pump,__NULL__,2026-11-02 05:11:00,2026-11-02 11:11:00
+12,12,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 02:12:00,2026-11-02 05:12:00,__NULL__,1,Clinical Engineering,Preventive service for Wheelchair,__NULL__,2026-11-01 23:12:00,2026-11-02 05:12:00
+13,13,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 08:13:00,2026-11-02 11:13:00,__NULL__,1,Clinical Engineering,Corrective service for Stretcher,__NULL__,2026-11-02 05:13:00,2026-11-02 11:13:00
+14,14,INSPECTION,COMPLETED,__NULL__,2026-11-02 11:14:00,2026-11-02 14:14:00,__NULL__,1,Clinical Engineering,Inspection service for Patient Monitor,__NULL__,2026-11-02 08:14:00,2026-11-02 14:14:00
+15,15,CALIBRATION,COMPLETED,__NULL__,2026-11-02 02:15:00,2026-11-02 05:15:00,__NULL__,1,Clinical Engineering,Calibration service for Anesthesia Machine,__NULL__,2026-11-01 23:15:00,2026-11-02 05:15:00
+16,16,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 05:16:00,2026-11-02 08:16:00,__NULL__,1,Clinical Engineering,Preventive service for Ultrasound,__NULL__,2026-11-02 02:16:00,2026-11-02 08:16:00
+17,17,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 08:17:00,2026-11-02 11:17:00,__NULL__,1,Clinical Engineering,Corrective service for C-Arm,__NULL__,2026-11-02 05:17:00,2026-11-02 11:17:00
+18,18,INSPECTION,COMPLETED,__NULL__,2026-11-02 08:18:00,2026-11-02 11:18:00,__NULL__,1,Clinical Engineering,Inspection service for Case Cart,__NULL__,2026-11-02 05:18:00,2026-11-02 11:18:00
+19,19,CALIBRATION,COMPLETED,__NULL__,2026-11-01 20:19:00,2026-11-01 23:19:00,__NULL__,1,Clinical Engineering,Calibration service for Autoclave,__NULL__,2026-11-01 17:19:00,2026-11-01 23:19:00
+20,20,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 02:20:00,2026-11-02 05:20:00,__NULL__,1,Clinical Engineering,Preventive service for Washer Disinfector,__NULL__,2026-11-01 23:20:00,2026-11-02 05:20:00
+21,21,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 02:21:00,2026-11-02 05:21:00,__NULL__,1,Clinical Engineering,Corrective service for Infusion Pump,__NULL__,2026-11-01 23:21:00,2026-11-02 05:21:00
+22,22,INSPECTION,COMPLETED,__NULL__,2026-11-02 11:22:00,2026-11-02 14:22:00,__NULL__,1,Clinical Engineering,Inspection service for Wheelchair,__NULL__,2026-11-02 08:22:00,2026-11-02 14:22:00
+23,23,CALIBRATION,COMPLETED,__NULL__,2026-11-02 08:23:00,2026-11-02 11:23:00,__NULL__,1,Clinical Engineering,Calibration service for Stretcher,__NULL__,2026-11-02 05:23:00,2026-11-02 11:23:00
+24,24,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 02:24:00,2026-11-02 05:24:00,__NULL__,1,Clinical Engineering,Preventive service for Patient Monitor,__NULL__,2026-11-01 23:24:00,2026-11-02 05:24:00
+25,25,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 02:25:00,2026-11-02 05:25:00,__NULL__,1,Clinical Engineering,Corrective service for Anesthesia Machine,__NULL__,2026-11-01 23:25:00,2026-11-02 05:25:00
+26,26,INSPECTION,COMPLETED,__NULL__,2026-11-02 11:26:00,2026-11-02 14:26:00,__NULL__,1,Clinical Engineering,Inspection service for Ultrasound,__NULL__,2026-11-02 08:26:00,2026-11-02 14:26:00
+27,27,CALIBRATION,COMPLETED,__NULL__,2026-11-02 02:27:00,2026-11-02 05:27:00,__NULL__,1,Clinical Engineering,Calibration service for C-Arm,__NULL__,2026-11-01 23:27:00,2026-11-02 05:27:00
+28,28,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 05:28:00,2026-11-02 08:28:00,__NULL__,1,Clinical Engineering,Preventive service for Case Cart,__NULL__,2026-11-02 02:28:00,2026-11-02 08:28:00
+29,29,CORRECTIVE,COMPLETED,__NULL__,2026-11-01 20:29:00,2026-11-01 23:29:00,__NULL__,1,Clinical Engineering,Corrective service for Autoclave,__NULL__,2026-11-01 17:29:00,2026-11-01 23:29:00
+30,30,INSPECTION,COMPLETED,__NULL__,2026-11-02 02:30:00,2026-11-02 05:30:00,__NULL__,1,Clinical Engineering,Inspection service for Washer Disinfector,__NULL__,2026-11-01 23:30:00,2026-11-02 05:30:00
+31,31,CALIBRATION,COMPLETED,__NULL__,2026-11-02 08:31:00,2026-11-02 11:31:00,__NULL__,1,Clinical Engineering,Calibration service for Infusion Pump,__NULL__,2026-11-02 05:31:00,2026-11-02 11:31:00
+32,32,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 05:32:00,2026-11-02 08:32:00,__NULL__,1,Clinical Engineering,Preventive service for Wheelchair,__NULL__,2026-11-02 02:32:00,2026-11-02 08:32:00
+33,33,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 02:33:00,2026-11-02 05:33:00,__NULL__,1,Clinical Engineering,Corrective service for Stretcher,__NULL__,2026-11-01 23:33:00,2026-11-02 05:33:00
+34,34,INSPECTION,COMPLETED,__NULL__,2026-11-02 11:34:00,2026-11-02 14:34:00,__NULL__,1,Clinical Engineering,Inspection service for Patient Monitor,__NULL__,2026-11-02 08:34:00,2026-11-02 14:34:00
+35,35,CALIBRATION,COMPLETED,__NULL__,2026-11-02 02:35:00,2026-11-02 05:35:00,__NULL__,1,Clinical Engineering,Calibration service for Anesthesia Machine,__NULL__,2026-11-01 23:35:00,2026-11-02 05:35:00
+36,36,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 02:36:00,2026-11-02 05:36:00,__NULL__,1,Clinical Engineering,Preventive service for Ultrasound,__NULL__,2026-11-01 23:36:00,2026-11-02 05:36:00
+37,37,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 08:37:00,2026-11-02 11:37:00,__NULL__,1,Clinical Engineering,Corrective service for C-Arm,__NULL__,2026-11-02 05:37:00,2026-11-02 11:37:00
+38,38,INSPECTION,COMPLETED,__NULL__,2026-11-02 11:38:00,2026-11-02 14:38:00,__NULL__,1,Clinical Engineering,Inspection service for Case Cart,__NULL__,2026-11-02 08:38:00,2026-11-02 14:38:00
+39,39,CALIBRATION,COMPLETED,__NULL__,2026-11-01 20:39:00,2026-11-01 23:39:00,__NULL__,1,Clinical Engineering,Calibration service for Autoclave,__NULL__,2026-11-01 17:39:00,2026-11-01 23:39:00
+40,40,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 02:40:00,2026-11-02 05:40:00,__NULL__,1,Clinical Engineering,Preventive service for Washer Disinfector,__NULL__,2026-11-01 23:40:00,2026-11-02 05:40:00
+41,41,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 08:41:00,2026-11-02 11:41:00,__NULL__,1,Clinical Engineering,Corrective service for Infusion Pump,__NULL__,2026-11-02 05:41:00,2026-11-02 11:41:00
+42,42,INSPECTION,COMPLETED,__NULL__,2026-11-02 08:42:00,2026-11-02 11:42:00,__NULL__,1,Clinical Engineering,Inspection service for Wheelchair,__NULL__,2026-11-02 05:42:00,2026-11-02 11:42:00
+43,43,CALIBRATION,COMPLETED,__NULL__,2026-11-02 08:43:00,2026-11-02 11:43:00,__NULL__,1,Clinical Engineering,Calibration service for Stretcher,__NULL__,2026-11-02 05:43:00,2026-11-02 11:43:00
+44,44,PREVENTIVE,COMPLETED,__NULL__,2026-11-02 05:44:00,2026-11-02 08:44:00,__NULL__,1,Clinical Engineering,Preventive service for Patient Monitor,__NULL__,2026-11-02 02:44:00,2026-11-02 08:44:00
+45,45,CORRECTIVE,COMPLETED,__NULL__,2026-11-02 02:45:00,2026-11-02 05:45:00,__NULL__,1,Clinical Engineering,Corrective service for Anesthesia Machine,__NULL__,2026-11-01 23:45:00,2026-11-02 05:45:00
+46,46,INSPECTION,SCHEDULED,2026-12-02 08:46:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Inspection service for Ultrasound,__NULL__,2026-11-02 08:46:00,2026-11-02 08:46:00
+47,47,CALIBRATION,SCHEDULED,2026-12-02 05:47:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Calibration service for C-Arm,__NULL__,2026-11-02 05:47:00,2026-11-02 05:47:00
+48,48,PREVENTIVE,SCHEDULED,2026-12-01 23:48:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Preventive service for Case Cart,__NULL__,2026-11-01 23:48:00,2026-11-01 23:48:00
+49,49,CORRECTIVE,SCHEDULED,2026-12-01 17:49:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Corrective service for Autoclave,__NULL__,2026-11-01 17:49:00,2026-11-01 17:49:00
+50,50,INSPECTION,SCHEDULED,2026-12-01 23:50:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Inspection service for Washer Disinfector,__NULL__,2026-11-01 23:50:00,2026-11-01 23:50:00
+51,51,CALIBRATION,SCHEDULED,2026-12-01 23:51:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Calibration service for Infusion Pump,__NULL__,2026-11-01 23:51:00,2026-11-01 23:51:00
+52,52,PREVENTIVE,SCHEDULED,2026-12-02 02:52:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Preventive service for Wheelchair,__NULL__,2026-11-02 02:52:00,2026-11-02 02:52:00
+53,53,CORRECTIVE,SCHEDULED,2026-12-02 05:53:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Corrective service for Stretcher,__NULL__,2026-11-02 05:53:00,2026-11-02 05:53:00
+54,54,INSPECTION,SCHEDULED,2026-12-02 05:54:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Inspection service for Patient Monitor,__NULL__,2026-11-02 05:54:00,2026-11-02 05:54:00
+55,55,CALIBRATION,SCHEDULED,2026-12-01 23:55:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Calibration service for Anesthesia Machine,__NULL__,2026-11-01 23:55:00,2026-11-01 23:55:00
+56,56,PREVENTIVE,SCHEDULED,2026-12-02 02:56:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Preventive service for Ultrasound,__NULL__,2026-11-02 02:56:00,2026-11-02 02:56:00
+57,57,CORRECTIVE,SCHEDULED,2026-12-01 23:57:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Corrective service for C-Arm,__NULL__,2026-11-01 23:57:00,2026-11-01 23:57:00
+58,58,INSPECTION,SCHEDULED,2026-12-02 08:58:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Inspection service for Case Cart,__NULL__,2026-11-02 08:58:00,2026-11-02 08:58:00
+59,59,CALIBRATION,SCHEDULED,2026-12-01 17:59:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Calibration service for Autoclave,__NULL__,2026-11-01 17:59:00,2026-11-01 17:59:00
+60,60,PREVENTIVE,SCHEDULED,2026-12-02 00:00:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Preventive service for Washer Disinfector,__NULL__,2026-11-02 00:00:00,2026-11-02 00:00:00
+61,61,CORRECTIVE,IN_PROGRESS,__NULL__,2026-11-01 21:01:00,__NULL__,__NULL__,1,Clinical Engineering,Corrective service for Infusion Pump,__NULL__,2026-11-01 18:01:00,2026-11-01 21:01:00
+62,62,INSPECTION,IN_PROGRESS,__NULL__,2026-11-02 00:02:00,__NULL__,__NULL__,1,Clinical Engineering,Inspection service for Wheelchair,__NULL__,2026-11-01 21:02:00,2026-11-02 00:02:00
+63,63,CALIBRATION,IN_PROGRESS,__NULL__,2026-11-01 15:03:00,__NULL__,__NULL__,1,Clinical Engineering,Calibration service for Stretcher,__NULL__,2026-11-01 12:03:00,2026-11-01 15:03:00
+64,64,PREVENTIVE,IN_PROGRESS,__NULL__,2026-11-02 00:04:00,__NULL__,__NULL__,1,Clinical Engineering,Preventive service for Patient Monitor,__NULL__,2026-11-01 21:04:00,2026-11-02 00:04:00
+65,65,CORRECTIVE,IN_PROGRESS,__NULL__,2026-11-01 15:05:00,__NULL__,__NULL__,1,Clinical Engineering,Corrective service for Anesthesia Machine,__NULL__,2026-11-01 12:05:00,2026-11-01 15:05:00
+66,66,INSPECTION,IN_PROGRESS,__NULL__,2026-11-01 21:06:00,__NULL__,__NULL__,1,Clinical Engineering,Inspection service for Ultrasound,__NULL__,2026-11-01 18:06:00,2026-11-01 21:06:00
+67,67,CALIBRATION,IN_PROGRESS,__NULL__,2026-11-01 21:07:00,__NULL__,__NULL__,1,Clinical Engineering,Calibration service for C-Arm,__NULL__,2026-11-01 18:07:00,2026-11-01 21:07:00
+68,68,PREVENTIVE,IN_PROGRESS,__NULL__,2026-11-02 00:08:00,__NULL__,__NULL__,1,Clinical Engineering,Preventive service for Case Cart,__NULL__,2026-11-01 21:08:00,2026-11-02 00:08:00
+69,69,CORRECTIVE,IN_PROGRESS,__NULL__,2026-11-01 15:09:00,__NULL__,__NULL__,1,Clinical Engineering,Corrective service for Autoclave,__NULL__,2026-11-01 12:09:00,2026-11-01 15:09:00
+70,70,INSPECTION,IN_PROGRESS,__NULL__,2026-11-01 21:10:00,__NULL__,__NULL__,1,Clinical Engineering,Inspection service for Washer Disinfector,__NULL__,2026-11-01 18:10:00,2026-11-01 21:10:00
+71,71,CALIBRATION,CANCELED,2026-12-01 18:11:00,__NULL__,__NULL__,2026-11-01 21:11:00,1,__NULL__,Calibration service for Infusion Pump,__NULL__,2026-11-01 18:11:00,2026-11-01 21:11:00
+72,72,PREVENTIVE,CANCELED,2026-12-01 18:12:00,__NULL__,__NULL__,2026-11-01 21:12:00,1,__NULL__,Preventive service for Wheelchair,__NULL__,2026-11-01 18:12:00,2026-11-01 21:12:00
+73,73,CORRECTIVE,CANCELED,2026-12-01 18:13:00,__NULL__,__NULL__,2026-11-01 21:13:00,1,__NULL__,Corrective service for Stretcher,__NULL__,2026-11-01 18:13:00,2026-11-01 21:13:00
+74,74,INSPECTION,CANCELED,2026-12-01 21:14:00,__NULL__,__NULL__,2026-11-02 00:14:00,1,__NULL__,Inspection service for Patient Monitor,__NULL__,2026-11-01 21:14:00,2026-11-02 00:14:00
+75,75,CALIBRATION,CANCELED,2026-12-01 12:15:00,__NULL__,__NULL__,2026-11-01 15:15:00,1,__NULL__,Calibration service for Anesthesia Machine,__NULL__,2026-11-01 12:15:00,2026-11-01 15:15:00
+76,76,PREVENTIVE,SCHEDULED,2026-12-01 21:16:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Preventive service for Ultrasound,__NULL__,2026-11-01 21:16:00,2026-11-01 21:16:00
+77,77,CORRECTIVE,SCHEDULED,2026-12-01 18:17:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Corrective service for C-Arm,__NULL__,2026-11-01 18:17:00,2026-11-01 18:17:00
+78,78,INSPECTION,SCHEDULED,2026-12-01 18:18:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Inspection service for Case Cart,__NULL__,2026-11-01 18:18:00,2026-11-01 18:18:00
+79,79,CALIBRATION,SCHEDULED,2026-12-01 12:19:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Calibration service for Autoclave,__NULL__,2026-11-01 12:19:00,2026-11-01 12:19:00
+80,80,PREVENTIVE,SCHEDULED,2026-12-01 18:20:00,__NULL__,__NULL__,__NULL__,1,__NULL__,Preventive service for Washer Disinfector,__NULL__,2026-11-01 18:20:00,2026-11-01 18:20:00

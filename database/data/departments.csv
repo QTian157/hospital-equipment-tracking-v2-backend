@@ -1,0 +1,13 @@
+id,name,department_type
+1,Surgery,SURGERY
+2,Imaging,RADIOLOGY
+3,ICU,ICU
+4,CSPD,CSPD
+5,Pre-Op,PRE_OP
+6,Materials Management,MATERIALS_MANAGEMENT
+7,Environmental Services,EVS
+8,Pharmacy,PHARMACY
+9,Laboratory,LAB
+10,Outpatient Clinic,CLINIC
+11,Cardiac ICU,ICU
+12,Ambulatory Surgery,SURGERY
