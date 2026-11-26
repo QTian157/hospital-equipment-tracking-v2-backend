@@ -4,6 +4,55 @@
 -- If local_infile is OFF, an administrator must run SET GLOBAL local_infile = 1.
 -- Copy and execute each LOAD statement and its checks separately.
 -- Stop if warnings occur or the row count differs from the expected count.
+
+-- Step 1: Open Terminal from the project root.
+--
+--     cd database
+--
+-- Step 2: Connect to MySQL with local file loading enabled.
+--
+--     mysql --local-infile=1 -u root -p
+--
+-- Step 3: Select the database and verify the tables.
+--
+--     USE hospital_equipment_tracking_v2;
+--     SHOW TABLES;
+--
+-- Step 4: Check and enable local file loading if needed.
+--
+--     SHOW VARIABLES LIKE 'local_infile';
+--     SET GLOBAL local_infile = ON;
+--     SHOW VARIABLES LIKE 'local_infile';
+--
+-- Step 5: Confirm all target tables are empty.
+--
+--     SELECT COUNT(*) FROM departments;
+--     SELECT COUNT(*) FROM rooms;
+--     SELECT COUNT(*) FROM people;
+--     SELECT COUNT(*) FROM user_accounts;
+--     SELECT COUNT(*) FROM equipments;
+--     SELECT COUNT(*) FROM equipment_status_histories;
+--     SELECT COUNT(*) FROM equipment_movement_histories;
+--     SELECT COUNT(*) FROM equipment_assignment_histories;
+--     SELECT COUNT(*) FROM maintenance_records;
+--
+-- Step 6: Execute the import script.
+--
+--     SOURCE 02_import_data.sql;
+--
+-- Step 7: Verify imported data and business rule consistency.
+--
+--     SOURCE 03_verify_data.sql;
+--
+-- Step 8: Restore the original local_infile setting
+--         if it was changed from OFF to ON.
+--
+--     SET GLOBAL local_infile = OFF;
+--
+-- Step 9: Exit MySQL.
+--
+--     EXIT;
+
 USE hospital_equipment_tracking_v2;
 SHOW GLOBAL VARIABLES LIKE 'local_infile';
 START TRANSACTION;
