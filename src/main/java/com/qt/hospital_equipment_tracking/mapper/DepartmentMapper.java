@@ -1,4 +1,4 @@
-package com.qt.hospital_equipment_tracking.dto.mapper;
+package com.qt.hospital_equipment_tracking.mapper;
 
 import com.qt.hospital_equipment_tracking.dto.response.DepartmentResponse;
 import com.qt.hospital_equipment_tracking.model.Department;
