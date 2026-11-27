@@ -21,8 +21,16 @@ import org.springframework.validation.FieldError;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.http.converter.HttpMessageNotReadableException;
+
+import org.springframework.dao.DataIntegrityViolationException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 @RestControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
+    private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     private String getRequestPath(WebRequest request) {
         if (request instanceof ServletWebRequest servletWebRequest) {
@@ -144,4 +152,63 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
         return new ResponseEntity<>(errorObject, headers, status);
     }
+
+    // enum invalid or data type dismatched or JSON format incorrect
+    @Override
+    protected ResponseEntity<Object> handleHttpMessageNotReadable(
+            HttpMessageNotReadableException ex,
+            HttpHeaders headers,
+            HttpStatusCode status,
+            WebRequest request) {
+
+        ErrorObject errorObject = new ErrorObject(
+                status.value(),
+                "Invalid or malformed request body.",
+                new Date(),
+                "INVALID_REQUEST_BODY",
+                getRequestPath(request)
+        );
+
+        return new ResponseEntity<>(errorObject, headers, status);
+    }
+
+    // Database constraint
+    // Handle Spring's built-in database integrity violation exception.
+    @ExceptionHandler(DataIntegrityViolationException.class)
+    protected ResponseEntity<Object> handleDataIntegrityViolationException(
+            DataIntegrityViolationException ex,
+            WebRequest request) {
+
+        ErrorObject errorObject = new ErrorObject(
+                HttpStatus.CONFLICT.value(),
+                "The operation violates a database constraint.",
+                new Date(),
+                "DATA_INTEGRITY_VIOLATION",
+                getRequestPath(request)
+        );
+
+        return new ResponseEntity<>(errorObject, HttpStatus.CONFLICT);
+    }
+
+    // Handle unexpected exceptions.
+    @ExceptionHandler(Exception.class)
+    protected ResponseEntity<Object> handleGeneralException(
+            Exception ex,
+            WebRequest request) {
+
+        logger.error("An unexpected server error occurred.", ex);
+
+        ErrorObject errorObject = new ErrorObject(
+                HttpStatus.INTERNAL_SERVER_ERROR.value(),
+                "An unexpected server error occurred.",
+                new Date(),
+                "INTERNAL_SERVER_ERROR",
+                getRequestPath(request)
+        );
+
+        return new ResponseEntity<>(
+                errorObject, HttpStatus.INTERNAL_SERVER_ERROR
+        );
+    }
+
 }
