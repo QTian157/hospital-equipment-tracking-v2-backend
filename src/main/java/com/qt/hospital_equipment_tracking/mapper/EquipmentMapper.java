@@ -11,6 +11,9 @@ import com.qt.hospital_equipment_tracking.model.enums.UsageStatus;
 import com.qt.hospital_equipment_tracking.util.EquipmentAvailabilityUtil;
 import org.springframework.stereotype.Component;
 
+import com.qt.hospital_equipment_tracking.dto.response.EquipmentDetailResponse;
+import java.time.LocalDateTime;
+
 @Component
 public class EquipmentMapper {
     public EquipmentListResponse toListResponse(Equipment equipment){
@@ -44,6 +47,49 @@ public class EquipmentMapper {
                 assignedPersonName
         );
 
+    }
+
+    /**
+     * Converts an Equipment entity to a detail response.
+     *
+     * @param equipment the equipment entity
+     * @param nextScheduledAt the next scheduled maintenance time,
+     *                        retrieved by the service layer; may be null
+     * @return the equipment detail response
+     */
+    public EquipmentDetailResponse toDetailResponse(
+            Equipment equipment,
+            LocalDateTime nextScheduledAt) {
+
+        EquipmentListResponse listResponse = toListResponse(equipment);
+
+        Room currentRoom = equipment.getCurrentRoom();
+
+        return new EquipmentDetailResponse(
+                listResponse.getId(),
+                listResponse.getName(),
+                listResponse.getAssetTag(),
+                listResponse.getType(),
+                listResponse.getMobile(),
+                listResponse.getDepartmentId(),
+                listResponse.getDepartmentName(),
+                listResponse.getCurrentRoomId(),
+                listResponse.getCurrentRoomName(),
+                listResponse.getCurrentRoomDepartmentName(),
+                listResponse.getUsageStatus(),
+                listResponse.getCleaningStatus(),
+                listResponse.getRepairStatus(),
+                listResponse.getAvailability(),
+                listResponse.getAssignedPersonId(),
+                listResponse.getAssignedPersonName(),
+                equipment.getSerialNumber(),
+                equipment.getCategory(),
+                equipment.getRequiresCleaning(),
+                currentRoom != null ? currentRoom.getDepartment().getId() : null,
+                equipment.getAssignedAt(),
+                equipment.getLastMaintenanceAt(),
+                nextScheduledAt
+        );
     }
 
 }
